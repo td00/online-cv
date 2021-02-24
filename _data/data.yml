@@ -53,7 +53,7 @@ experiences:
         - Monitoring network capacity and performance using state of the art Prometheus, AlertManager, and Grafana Tooling so that problems in the Network Infrastructure can be detected early on to prevent outages and ensuring our SLAs are kept 
         - Managing Firewalls and VPN Systems, keeping up the high security demands for our customers, as well as our internal systems
         - Working as a technical expert during incidents as part of the companies incident response team as well as participating in the on-call schedule to satisfy our customers needs in highly reliable systems
-    - role: System & Netowrk Administration
+    - role: System & Network Administration
       time: 2017 - 2018
       company: Volke Kommunikations-Design GmbH, Wolfsburg
       details: |
@@ -65,7 +65,7 @@ experiences:
       company: Volke Kommunikations-Design GmbH, Wolfsburg
       details: |
         - Learned about security services by working in multiple implementation projects for security services, like fortigate and sophos firewalls
-        - Leadned about network and serverside automation to automatically deploy new and maintain existing applications inside the company as well as customer applications
+        - Learned about network and serverside automation to automatically deploy new and maintain existing applications inside the company as well as customer applications
         - Deployed a new asset management solution to effectively keeping track of the companies assets across the workplaces and inside the datacenter
         - Managed the Windows 7 environment inside the company
         - Worked in the IT-HelpDesk for the internal staff to ensure smooth day-to-day operatinos of the company
