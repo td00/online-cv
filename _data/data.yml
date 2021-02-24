@@ -50,7 +50,6 @@ experiences:
       company: WOBCOM GmbH, Wolfsburg
       details: |
         - Performing troubleshooting for Juniper-, Cisco-, and Fortinet Appliances to ensure a reliable network for our customers
-        - Monitoring network capacity and performance using state of the art Prometheus, AlertManager, and Grafana Tooling so that problems in the Network Infrastructure can be detected early on to prevent outages and ensuring our SLAs are kept 
         - Managing Firewalls and VPN Systems, keeping up the high security demands for our customers, as well as our internal systems
         - Working as a technical expert during incidents as part of the companies incident response team as well as participating in the on-call schedule to satisfy our customers needs in highly reliable systems
     - role: System & Network Administration
