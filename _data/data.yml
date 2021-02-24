@@ -3,13 +3,13 @@
 #
 
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
     # Profile information
     name: Thies Müller
     tagline: Network Engineer
-    avatar:   #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+   
 
     # Sidebar links
     email: mail@thiesnueller.de
@@ -17,7 +17,6 @@ sidebar:
     website: thiesmueller.de #do not add http://
     linkedin: thiesmueller
     github: td00
-    twitter: '@webjeda'
     
     languages:
       - idiom: German
@@ -35,136 +34,101 @@ career-profile:
     summary: |
       Experienced Network Engineer with a history of working for an ISP & IXP, deploying highly reliable network solutions on a large scale. Currently searching for a new opportunity as a Senior Network Engineer
 education:
-    - degree: MSc in Computer Science
-      university: University of London
-      time: 2011 - 2012
+    - degree: "IHK geprüfter Fachinformatiker für Systemintegration"
+      university: BBS2 Wolfsburg
+      time: 2014 - 2017
       details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - degree: BSc in Applied Mathematics
-      university: Bristol University
-      time: 2007 - 2011
-      details: |
-        Describe your study here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-        sociis natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-        pretium quis, sem.
-          - Bullet point
-          - Bullet point
-experiences:
-    - role: Lead Developer
-      time: 2015 - Present
-      company: Startup Hubs, San Francisco
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-        enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-        error sit voluptatem accusantium doloremque laudantium, totam rem
-        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-        architecto beatae vitae dicta sunt explicabo.
-          - Bullet point
-          - Bullet point
-    - role: Senior Software Engineer
-      time: 2014 - 2015
-      company: Google, London
-      details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
-    - role: UI Developer
+
+    - degree: "Erweiterter Realschulabschluss"
+      university: Oberschule Calberlah
       time: 2012 - 2014
-      company: Amazon, London
       details: |
-        Describe your role here lorem ipsum dolor sit amet, consectetuer
-        adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-        Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec,
-        pellentesque eu, pretium quis, sem.
-          - Bullet point
-          - Bullet point
+experiences:
+    - role: Network Engineer
+      time: 2019 - Present
+      company: WOBCOM GmbH, Wolfsburg
+      details: |
+        - Performing troupleshooting for Juniper-, Cisco-, and Fortinet Appliances to ensure a reliable network for our customers
+        - Monitoring network capacity and performance using state of the art Prometheus, AlertManager, and Grafana Tooling so that problems in the Network Infrastructure can be detected early on to prevent outages and ensuring our SLAs are kept 
+        - Managing Firewalls and VPN Systems, keeping up the high security demands for our customers, as well as our internal systems
+        - Working as a technical expert during incidents as part of the companies incident response team as well as participating in the on-call schedule to satisfy our customers needs in highly reliable systems
+    - role: System & Netowrk Administration
+      time: 2017 - 2018
+      company: Volke Kommunikations-Design GmbH, Wolfsburg
+      details: |
+        - Deployed and managed the corporates antivirus and security solution, including the whole corporates technical systems, resulting in an increased overall security for the company
+        - Designed, planned, deployed, and leading the implementation project of the new company network infrastructure, encorporating juniper products, including routers, switches, and firewalls, consolidating a highly heterogenous network into a much easier to manage setup, resulting in a increased system reliability and security
+        - Management of the servers, vmhosts, and virtual machines for the hosting of the web applications provided to customers, as well as internal services using state of the art technology like nginx
+    - role: Trainee "Fachinformatiker Systemintegration"
+      time: 2014 - 2017
+      company: Volke Kommunikations-Design GmbH, Wolfsburg
+      details: |
+        - Learned about security services by working in multiple implementation projects for security services, like fortigate and sophos firewalls
+        - Leadned about network and serverside automation to automatically deploy new and maintain existing applications inside the company as well as customer applications
+        - Deployed a new asset management solution to effectively keeping track of the companies assets across the workplaces and inside the datacenter
+        - Managed the Windows 7 environment inside the company
+        - Worked in the IT-HelpDesk for the internal staff to ensure smooth day-to-day operatinos of the company
 projects:
     title: Projects
     intro: >
-      You can list your side projects or open source libraries in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+      These are some projects i've done in my past:
     assignments:
-      - title: Velocity
-        link: "#hook"
-        tagline: "A responsive website template designed to help startups promote, market and sell their products."
+      - title: rC3
+        link: "https://infra.rc3.world"
+        tagline: "Technical Lead for the rC3 infrastructure Team & the rC3"
 
-      - title: DevStudio
-        link: "#"
-        tagline: "A responsive website template designed to help web developers/designers market their services."
+      - title: Sport am Tankumsee
+        link: "https://sport-am-tankumsee.de"
+        tagline: "Race Control, technical publications, streaming."
 
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+      - title: open-Infrastructure e.V. (i.G.)
+        link: "https://open-infrastructure.de"
+        tagline: "We founded this non-profit initiative to build free infrastructure and services."
 
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+      - title: Event Logistics @ CCC Events
+        link: "https://c3loc.de"
+        tagline: "At the on-premise events of the CCC I'm working in the internal Logistics."
 
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
-    title: Publications
+    title: Extra-Curricular Activities
     intro: |
-      You can list your publications in this section. Lorem ipsum dolor sit
-      amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-      bibendum fringilla a eu lectus.
+     
     papers:
-      - title: The Art of Computer Programming
-        link: "#"
-        authors: Donald E. Knuth
-        conference: Addison-Wesley, 1968
+      - title: "Event Logistics @ CCC Events"
+        link: "https://c3loc.de"
+        authors: Chaos Computer Club e.V. / Chaos Computer Club Veranstaltungs GmbH
+        conference: 2015 - present
 
-      - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-        link: "#"
-        authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-        conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+      - title: "Technical Project Lead @ rC3"
+        link: "https://rc3.world"
+        authors: Chaos Computer Club e.V. / Chaos Computer Club Veranstaltungs GmbH
+        conference: 2020 - present
 
-      - title: A syntax directed compiler for Algol 60
-        link: "#"
-        authors: Edgar T. Irons
-        conference: "Comm. ACM 4 (1961), 51–55"
+      - title: "(Founding) Member of the Board @ open-Infrastructure e.V. (i.G.)"
+        link: "https://open-infrastructure.de"
+        authors: open-Infrastructure e.V. (i.G.)
+        conference: 2020 - present
 
 skills:
     title: Skills &amp; Proficiency
 
     toolset:
-      - name: Python & Django
-        level: 98%
+      - name: Network Architect
+        
+      - name: Firewall
+        
+      - name: Juniper
+        
+      - name: Cisco
+        
+      - name: Palo Alto Networks
+        
+      - name: Linux
 
-      - name: Javascript & jQuery
-        level: 98%
+      - name: nginx
 
-      - name: Angular
-        level: 98%
-
-      - name: HTML5 & CSS
-        level: 95%
-
-      - name: Ruby on Rails
-        level: 85%
-
-      - name: Sketch & Photoshop
-        level: 60%
-
+      - name: VMware
+        
 footer: >
-    Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
+    
