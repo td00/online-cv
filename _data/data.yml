@@ -29,7 +29,7 @@ sidebar:
     interests:
       - item: Travelling
         link:
-
+    pdflink: ../cv.pdf
 career-profile:
     title: Profile
     summary: |
