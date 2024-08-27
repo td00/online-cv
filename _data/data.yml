@@ -3,6 +3,7 @@
 #
 
 sidebar:
+    position: right # position of the sidebar : left or right
     about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
     education: True # set to False if you want education in main section instead of in sidebar
 
@@ -11,13 +12,14 @@ sidebar:
     tagline: Network & Infrastructure Engineer
     avatar: me.png  #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-
     # Sidebar links
     email: mail@thiesmueller.de
     phone: +49 152 2748 9913
     website: thiesmueller.de #do not add http://
     linkedin: thiesmueller
     github: td00
+    timezone: Europe/Berlin
+    citizenship: German
     
     languages:
       - idiom: German
@@ -25,11 +27,17 @@ sidebar:
 
       - idiom: English
         level: Professional
+       
+      - idiom: French
+        level: Basic
 
     interests:
-      - item: Travelling
-        link:
+      - item: Jugend hackt
+        link: https://jugendhackt.org
+      - item: Chaos Computer Club
+        link: https://ccc.de
     pdflink: ../cv.pdf
+   
 career-profile:
     title: Profile
     summary: |
@@ -44,12 +52,27 @@ education:
       university: Oberschule Calberlah
       time: 2012 - 2014
       details: |
+      
 experiences:
     - role: Senior Network & Infrastructure Engineer
-      time: 2021 - present
-      company: German Edge Cloud GmbH & Co. KG
-      details: 
+      time: 2024 - current
+      company: WIIT AG
+      details: |
+        The previous company was bought by WIIT AG.
+        Additionally:
+        - Creating training courses for colleagues
       
+    - role: Senior Network & Infrastructure Engineer
+      time: 2021 - 2024
+      company: German Edge Cloud GmbH & Co. KG
+      details: |
+        - Responsible for Firewalling & Network Security
+        - Responsible for our Infrastructure Management based on ansible
+        - Maintaining the MPLS ring's betweens our datacenters
+        - Consulting for other Teams in regards to questions about networking, (network) security & IPv6
+        - Working as a technical expert during incidents as part of the companies incident response team as well as participating in the on-call schedule to satisfy our customers needs in highly reliable systems
+        - Developing & maintaining specialised solutions based on customer needs. 
+        
     - role: Network Engineer
       time: 2019 - 2021
       company: WOBCOM GmbH, Wolfsburg
@@ -87,14 +110,32 @@ projects:
         link: "https://sport-am-tankumsee.de"
         tagline: "Race Control, technical publications, streaming."
 
-      - title: open-Infrastructure e.V. (i.G.)
-        link: "https://open-infrastructure.de"
-        tagline: "We founded this non-profit initiative to build free infrastructure and services."
-
       - title: Event Logistics @ CCC Events
         link: "https://c3loc.de"
         tagline: "At the on-premise events of the CCC I'm working in the internal logistics."
 
+      - title: Jugend hackt Infrastructure
+        link: "https://jugendhackt.org"
+        tagline: "Together with others we build a system based on open source tools for Jugend hackt Events & Labs"
+
+oss:
+    title: OSS Contributions
+    intro: >
+      You can list your open source software contributions in this
+      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+    contributions:
+      - title: Tempo
+        link: "#"
+        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+
+      - title: Atom
+        link: "#"
+        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+
+      - title: Delta
+        link: "#"
+        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Extra-Curricular Activities
@@ -111,10 +152,10 @@ publications:
         authors: Chaos Computer Club e.V. / Chaos Computer Club Veranstaltungs GmbH
         conference: 2020 - present
 
-      - title: "(Founding) Member of the Board @ open-Infrastructure e.V. (i.G.)"
-        link: "https://open-infrastructure.de"
-        authors: open-Infrastructure e.V. (i.G.)
-        conference: 2020 - present
+      - title: "Jugend hackt"
+        link: "https://jugendhackt.org"
+        authors: Jugend hackt (OKFN e. V. / mediale Pfade e. V.)
+        conference: 2021 - present
 
 skills:
     title: Skills &amp; Proficiency
@@ -129,12 +170,47 @@ skills:
       - name: Cisco
         
       - name: Palo Alto Networks
-        
+      
+      - name: FortiNet
+      
+      - name: Sophos
+      
+      - name: NVIDIA / Mellanox
+      
       - name: Linux
-
-      - name: nginx
+      
+      - name: Mellanox Onyx
+      
+      - name: Cumulus Linux
 
       - name: VMware
+      
+      - name: Proxmox
+      
+      - name: nginx
+      
+      - name: frr
+      
+      - name: bird
+      
+      - name: PowerDNS
+      
+      - name: ansible
+      
+      - name: git
+      
+      - name: IPv6
+      
+      - name: BGP
+      
+      - name: MPLS
+      
+      - name: EVPN
+      
+      - name: Vulnerability Management
+      
+      - name: Incident Management
+      
         
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
