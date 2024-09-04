@@ -20,14 +20,14 @@ sidebar:
     github: td00
     timezone: Europe/Berlin
     citizenship: German
-    
+
     languages:
       - idiom: German
         level: Native
 
       - idiom: English
         level: Professional
-       
+
       - idiom: French
         level: Basic
 
@@ -37,12 +37,15 @@ sidebar:
       - item: Chaos Computer Club
         link: https://ccc.de
     pdflink: ../cv.pdf
-   
+
 career-profile:
     title: Profile
     summary: |
       Experienced Network Engineer with a history of working for an ISP & IXP, deploying highly reliable network solutions on a large scale.
+
 education:
+    title: Education
+    info:
     - degree: "IHK geprüfter Fachinformatiker für Systemintegration"
       university: BBS2 Wolfsburg
       time: 2014 - 2017
@@ -52,8 +55,10 @@ education:
       university: Oberschule Calberlah
       time: 2012 - 2014
       details: |
-      
+
 experiences:
+    title: Experiences
+    info:
     - role: Senior Network & Infrastructure Engineer
       time: 2024 - current
       company: WIIT AG
@@ -61,7 +66,7 @@ experiences:
         The previous company was bought by WIIT AG.
         Additionally:
         - Creating training courses for colleagues
-      
+
     - role: Senior Network & Infrastructure Engineer
       time: 2021 - 2024
       company: German Edge Cloud GmbH & Co. KG
@@ -71,8 +76,8 @@ experiences:
         - Maintaining the MPLS ring's betweens our datacenters
         - Consulting for other Teams in regards to questions about networking, (network) security & IPv6
         - Working as a technical expert during incidents as part of the companies incident response team as well as participating in the on-call schedule to satisfy our customers needs in highly reliable systems
-        - Developing & maintaining specialised solutions based on customer needs. 
-        
+        - Developing & maintaining specialised solutions based on customer needs.
+
     - role: Network Engineer
       time: 2019 - 2021
       company: WOBCOM GmbH, Wolfsburg
@@ -97,50 +102,11 @@ experiences:
         - Deployed a new asset management solution to effectively keeping track of the companies assets across the workplaces and inside the datacenter
         - Managed the Windows 7 environment inside the company
         - Worked in the IT-HelpDesk for the internal staff to ensure smooth day-to-day operations of the company
-projects:
-    title: Projects
-    intro: >
-      These are some projects i've done in my past:
-    assignments:
-      - title: rC3
-        link: "https://infra.rc3.world"
-        tagline: "Technical Lead for the rC3 infrastructure Team & the rC3"
-
-      - title: Sport am Tankumsee
-        link: "https://sport-am-tankumsee.de"
-        tagline: "Race Control, technical publications, streaming."
-
-      - title: Event Logistics @ CCC Events
-        link: "https://c3loc.de"
-        tagline: "At the on-premise events of the CCC I'm working in the internal logistics."
-
-      - title: Jugend hackt Infrastructure
-        link: "https://jugendhackt.org"
-        tagline: "Together with others we build a system based on open source tools for Jugend hackt Events & Labs"
-
-oss:
-    title: OSS Contributions
-    intro: >
-      You can list your open source software contributions in this
-      section. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-      Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-    contributions:
-      - title: Tempo
-        link: "#"
-        tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-      - title: Atom
-        link: "#"
-        tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-      - title: Delta
-        link: "#"
-        tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
 publications:
     title: Extra-Curricular Activities
     intro: |
-     
+
     papers:
       - title: "Event Logistics @ CCC Events"
         link: "https://c3loc.de"
@@ -152,7 +118,7 @@ publications:
         authors: Chaos Computer Club e.V. / Chaos Computer Club Veranstaltungs GmbH
         conference: 2020 - present
 
-      - title: "Jugend hackt"
+      - title: "Infrastructure @ Jugend hackt"
         link: "https://jugendhackt.org"
         authors: Jugend hackt (OKFN e. V. / mediale Pfade e. V.)
         conference: 2021 - present
@@ -162,55 +128,55 @@ skills:
 
     toolset:
       - name: Network Architect
-        
+
       - name: Firewall
-        
+
       - name: Juniper
-        
+
       - name: Cisco
-        
+
       - name: Palo Alto Networks
-      
+
       - name: FortiNet
-      
+
       - name: Sophos
-      
+
       - name: NVIDIA / Mellanox
-      
+
       - name: Linux
-      
+
       - name: Mellanox Onyx
-      
+
       - name: Cumulus Linux
 
       - name: VMware
-      
+
       - name: Proxmox
-      
+
       - name: nginx
-      
+
       - name: frr
-      
+
       - name: bird
-      
+
       - name: PowerDNS
-      
+
       - name: ansible
-      
+
       - name: git
-      
+
       - name: IPv6
-      
+
       - name: BGP
-      
+
       - name: MPLS
-      
+
       - name: EVPN
-      
+
       - name: Vulnerability Management
-      
+
       - name: Incident Management
-      
-        
+
+
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
